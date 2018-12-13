@@ -1,0 +1,155 @@
+/*Default*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*Background*/
+nav,
+footer{
+	background-image: url(../images/nav.jpg);
+}
+
+#home,
+#about,
+#projects,
+#skills,
+#contact {
+	background-image: url(../images/home.jpg);
+}
+
+#home,
+#projects,
+#skills,
+#contact,
+#home-container,
+#about-row {
+	height: 100vh;
+}
+
+#about, {
+	min-height: 100vh;
+}
+
+.d-flex {
+	height: 100%;
+	width: 100%;
+}
+
+#line1 {
+	height: 50px;
+	margin-top: 5px;
+}
+
+
+
+
+
+/*.hmcontainer {
+	background: rgba(0,0,0,0.5);
+}
+*/
+
+
+
+
+/*Banner*/
+#button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #323B43;
+  border: none;
+  border-radius:  15px;
+  box-shadow: 0 9px #999;
+}
+
+#button:hover {
+	background-color: #353C3F;
+}
+
+#button:active {
+  background-color: #93B4D8;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+/*About*/
+.about-grids {
+	margin-top: 60px;
+}
+
+.about {
+	padding: 80px 0;
+}
+
+.about-info h3 {
+	font-family: 'Jockey One', sans-serif;
+	margin: 0;
+	color: #323B43;
+	font-size: 44px;
+	text-align: center;
+	font-weight: 400;
+}
+
+.about-info h4 {
+	text-align: center;
+	font-size: 17px;
+	color: #D9FFC4;
+	font-weight: 600;
+	margin: 10px 0 16px 0;
+	font-style: italic;
+}
+
+.about-info p {
+	text-align: center;
+	font-size: 14px;
+	color: #FFF;
+	width: 71%;
+	margin: 0 auto;
+	line-height: 1.8em;
+}
+
+.about-grid h4 {
+	font-family: 'Jockey One', sans-serif;
+	text-align: left;
+	color: #D9FFC4;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.about-grid p {
+	text-align: left;
+	color: #FFF;
+	font-size: 14px;
+	line-height: 1.8em;
+	padding: 2em 0 0;
+}
+
+
+/*Project*/
+
+.projects-info h3 {
+	font-family: 'Jockey One', sans-serif;
+	margin: 0;
+	color: #ffffff;
+	font-size: 44px;
+	text-align: center;
+	font-weight: 400;
+}
+
+/*Footer*/
+
+footer {
+	color: #ffffff;
+	font-size: 16px;
+	text-align: center;
+	font-weight: 200;
+	height: 50px;
+}
